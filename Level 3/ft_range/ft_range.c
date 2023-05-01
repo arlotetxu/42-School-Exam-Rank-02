@@ -15,12 +15,12 @@ int     *ft_range(int start, int end)
 		  start++;
     		  i++;
           }
-  	}
-  	else
-  	{
-    		res[i] = start;
-    		start--;
-    		i++;
-  	}
+  	  else
+  	  {
+		  res[i] = start;
+		  start--;
+		  i++;
+	  }
+	}
   	return (res);
 }
